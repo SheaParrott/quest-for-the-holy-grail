@@ -7,3 +7,43 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+div.flexin {
+  display: flex;
+  justify-content: center;
+  border: 5px solid black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.needscentering {
+  display: flex;
+  justify-content: center;
+  margin: 0px; //not working idk why
+}
+
+.sides {
+  min-width: 150px;
+}
+.middle {
+  border: 5px solid black;
+}
+
+.bigfont {
+  font-size: 3rem;
+}
+
+.lessbigfont {
+  font-size: 1.7rem;
+}
+
+.menufonts {
+  font-size: 1.4rem;
+}
+
+.content {
+  font-size: 2rem;
+}
